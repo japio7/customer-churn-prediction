@@ -11,12 +11,49 @@ The analysis includes data preprocessing, model training, evaluation, and featur
 
 ## 📌 Key Results
 
-- 🧠 Best Model: Random Forest  
-- 📊 AUC: X.XX  
-- 🎯 Recall (Churn): XX%  
-- ⚖️ Accuracy: XX%  
+🧠 Best Model: Random Forest 
+
+| Metric     | Value |
+|------------|------:|
+| Accuracy   | 0.968 |
+| Precision  | 0.976 |
+| Recall     | 0.902 |
+| F1 Score   | 0.937 |
+| ROC-AUC    | 0.992 |
+
+> **Why Recall Matters:** Missing a churned customer is more costly than a false positive, making recall a critical metric in this problem.
 
 The model effectively identifies high-risk customers before churn occurs.
+
+___
+
+## 💰 Business Impact
+
+This model enables:
+
+- Targeted retention campaigns for high-risk customers  
+- Reduction in churn-related revenue loss  
+- More efficient marketing spend  
+- Increased customer lifetime value (CLV)  
+
+Example:
+If applied to 10,000 customers, identifying even 10% at-risk customers could prevent thousands in lost revenue.
+
+## 🔮 Example Prediction
+
+**Customer Profile:**
+- Tenure: 2 months  
+- Contract: Month-to-month  
+- Monthly Charges: $90  
+
+**Model Output:**
+- Churn Probability: 78%
+
+**Business Action:**
+- Offer retention incentive  
+- Promote contract upgrade  
+- Trigger customer success outreach  
+___
 
 ## Dataset
 
@@ -111,6 +148,8 @@ The most important predictors of churn include:
 * Payment Method
 
 These variables provide insight into customer behavior and churn risk.
+
+These results show that customers with short-term commitments and higher costs are significantly more likely to churn, highlighting clear opportunities for targeted retention strategies.
 
 ---
 
