@@ -1,11 +1,20 @@
 # 📉 Customer Churn Prediction
 Predicting customer attrition to drive retention and revenue growth
 
-## Overview
+___
+
+
+## 🔍 Overview
 
 Customer churn is a major challenge for subscription-based businesses. This project builds machine learning models to predict whether a telecommunications customer is likely to churn.
 
 The analysis includes data preprocessing, model training, evaluation, and feature importance analysis to understand the key factors influencing churn.
+
+## 🎯 What This Project Demonstrates
+
+- End-to-end machine learning workflow  
+- Business-driven model evaluation  
+- Translation of model outputs into actionable strategy
 
 ---
 
@@ -34,10 +43,10 @@ This model enables:
 - Targeted retention campaigns for high-risk customers  
 - Reduction in churn-related revenue loss  
 - More efficient marketing spend  
-- Increased customer lifetime value (CLV)  
+- Increased customer lifetime value (CLV)
 
 Example:
-If applied to 10,000 customers, identifying even 10% at-risk customers could prevent thousands in lost revenue.
+In a base of 10,000 customers, identifying the top 10% highest-risk customers could enable targeted interventions that significantly reduce churn-related revenue loss.
 
 ## 🔮 Example Prediction
 
@@ -52,31 +61,8 @@ If applied to 10,000 customers, identifying even 10% at-risk customers could pre
 **Business Action:**
 - Offer retention incentive  
 - Promote contract upgrade  
-- Trigger customer success outreach  
-___
+- Trigger customer success outreach
 
-## Dataset
-
-Dataset Source: HuggingFace
-`aai510-group1/telco-customer-churn`
-
-The dataset contains customer demographic information, account details, and service usage metrics.
-
-Examples of variables include:
-
-* Contract Type
-* Internet Type
-* Payment Method
-* Monthly Charges
-* Tenure
-* Customer Lifetime Value (CLTV)
-
-Target variable:
-
-**Churn**
-
-* `0` = Customer stays
-* `1` = Customer churns
 
 ---
 
@@ -162,6 +148,8 @@ joblib.dump(rf_clf, "churn_model.joblib")
 ```
 
 This allows the model to be loaded later and used to generate churn predictions on new data.
+
+This model can be integrated into a production system to score customers in real-time and trigger automated retention workflows.
 
 ---
 
