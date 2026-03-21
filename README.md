@@ -66,7 +66,7 @@ In a base of 10,000 customers, identifying the top 10% highest-risk customers co
 
 ---
 
-## Data Preprocessing
+## ⚙️ Data Preprocessing
 
 The following preprocessing steps were applied:
 
@@ -82,7 +82,7 @@ The following preprocessing steps were applied:
 
 ---
 
-## Machine Learning Models
+## 🤖 Machine Learning Models
 
 Three classification algorithms were evaluated:
 
@@ -100,7 +100,7 @@ A probabilistic classifier based on Bayes’ theorem.
 
 ---
 
-## Model Evaluation
+## 📊 Model Evaluation
 
 Models were evaluated using the following metrics:
 
@@ -139,7 +139,7 @@ These results show that customers with short-term commitments and higher costs a
 
 ---
 
-## Model Deployment
+## 🚀 Model Deployment
 
 The trained Random Forest model is saved using **Joblib**:
 
@@ -153,7 +153,7 @@ This model can be integrated into a production system to score customers in real
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 * Python
 * Pandas
@@ -166,7 +166,7 @@ This model can be integrated into a production system to score customers in real
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 customer-churn-prediction/
@@ -193,7 +193,7 @@ customer-churn-prediction/
 
 ---
 
-## Author
+## 👤 Author
 
 Jared Pino
 Master of Science – Data Science
