@@ -9,6 +9,15 @@ The analysis includes data preprocessing, model training, evaluation, and featur
 
 ---
 
+## 📌 Key Results
+
+- 🧠 Best Model: Random Forest  
+- 📊 AUC: X.XX  
+- 🎯 Recall (Churn): XX%  
+- ⚖️ Accuracy: XX%  
+
+The model effectively identifies high-risk customers before churn occurs.
+
 ## Dataset
 
 Dataset Source: HuggingFace
