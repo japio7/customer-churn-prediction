@@ -1,4 +1,5 @@
-# Customer Churn Prediction
+# 📉 Customer Churn Prediction
+Predicting customer attrition to drive retention and revenue growth
 
 ## Overview
 
